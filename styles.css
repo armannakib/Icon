@@ -1,0 +1,97 @@
+body{
+    background-color: wheat;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+.my_menu{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: gray;
+}
+.menu li{
+  list-style: none;
+  width: 145px;
+  height: 35px;
+  background-color: gray;
+  margin-left: 40px;
+  text-align: centre;
+  line-height: 50px;
+  float: left;
+}
+.menu li:hover{
+  background-color: black;
+}
+.menu li a:hover{
+  color:aqua;
+}
+.menu li a{
+  color: white;
+  display: black;
+  text-decoration: none;
+}
+.logo{
+  width: 100px;
+}
+.logo_li:hover{
+  background-color: #2196f3 !importa;
+}
+.logo_li a{
+  font-size: 30px;
+  background-color: ;
+}
+.menu ul li{
+  margin: 0px;
+}
+.menu ul{
+  display: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+/*banner*/
+    #banner{
+      width: 100%;
+    }
+    #banner img{
+      margin-top: 50px;
+        width: 100%;
+    }
+      /*why choose us*/
+      #why_choose h1{
+        width: 100%;
+        text-align: centre;
+      }
+   
+      #why_choose h1{
+        margin: 0 auto;
+        width: 200px;
+        font-size: 25px;
+        color: red;
+        border-bottom: 2px solid red;
+      }
+         .div_section1{
+           width: 20%;
+           height: 400px;
+           margin: 10px;
+           float: left;
+       }
+       .icon{
+         width: 120px;
+         height: 120px;
+         line-height: 120px;
+         margin: 10px auto;
+         border: 1px solid gray;
+         font-size: 50px;
+         background-color: darkred;
+         color: white;
+         border-radius: 100px;
+         transition-duration: 0.3s;
+       }
+        .icon:hover{
+           font-size: 40px;
+        }
